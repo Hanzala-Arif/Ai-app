@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ai app</string>
+    <string name="dummy_text">Dummy text</string>
+    <string name="Load_image">Load image</string>
+    <string name="capture_image">Cature</string>
+    <string name="output">Output</string>
+    <string name="result">Result</string>
+    <string name="click_to_search">Search</string>
+    <string name="default_image">default</string>
+</resources>

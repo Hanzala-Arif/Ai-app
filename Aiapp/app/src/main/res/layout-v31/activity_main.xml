@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_300sdp"
+            android:layout_marginTop="@dimen/_100sdp"
+            android:scaleType="center" />
+
+        <com.sanojpunchihewa.glowbutton.GlowButton
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:text="@string/Load_image"
+            app:buttonColor="@color/material_dynamic_neutral95"
+            app:cornerRadius="50dp"
+            app:glowColor="@color/cardview_shadow_end_color"
+            android:onClick="click"
+            app:pressedGlowSize="25dp"
+            app:unpressedGlowSize="20dp" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_height="44dp"
+            android:onClick="tclick"
+            android:text="@string/output"
+            android:textSize="@dimen/_20sdp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
